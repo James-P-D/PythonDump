@@ -1,5 +1,7 @@
+from variables import *
+
 def main():
-    pass
+    variable_examples()
 
 ###############################################
 # Startup
