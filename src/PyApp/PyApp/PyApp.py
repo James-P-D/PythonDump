@@ -4,6 +4,10 @@ from tuples import *
 from dictionaries import *
 from conditionals import *
 from loops import *
+from functions import *
+from user_input import *
+from strings import *
+from file_io import *
 
 def main():
     #variable_examples()
@@ -11,9 +15,11 @@ def main():
     #tuple_examples()
     #dictionary_examples()
     #conditional_examples()
-    loop_examples()
-
-
+    #loop_examples()
+    #function_examples()
+    #user_input_examples()
+    #string_examples()
+    file_io_examples()
 
 ###############################################
 # Startup

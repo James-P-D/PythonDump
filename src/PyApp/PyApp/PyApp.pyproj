@@ -21,6 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="file_io.py" />
+    <Compile Include="strings.py" />
+    <Compile Include="user_input.py" />
+    <Compile Include="functions.py" />
     <Compile Include="loops.py" />
     <Compile Include="conditionals.py" />
     <Compile Include="dictionaries.py" />
