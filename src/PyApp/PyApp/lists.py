@@ -5,6 +5,10 @@ def list_examples():
     print("List Examples")
     print()
 
+    print("We can declare empty lists with []")
+    empty_list = []
+    print(empty_list)
+
     print("Lists can be created with square brackets")
     shopping_list = ["Apples", "Bread", "Carrots", "Dates", "Eggplant"]
     print(shopping_list)
@@ -61,7 +65,7 @@ def list_examples():
     number_list.sort();
     print("Sorted list = ", number_list)
     
-    print("We can use del to delete an item. e.g. del number_list[3] - (Note del is not a method of list!)")
+    print("We can use the del keyword to delete an item. e.g. del number_list[3] - (Note del is not a method of list!)")
     del number_list[3]
     print("number_list = ", number_list)
     
@@ -82,3 +86,5 @@ def list_examples():
     print("We can get the maximum item of a list with 'max'")
     print("Max item of list6 is ", max(list6))
 
+    print("Just like strings, we can duplicate lists with the multiplication operator")
+    print(shopping_list * 3)

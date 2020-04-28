@@ -18,7 +18,7 @@ def dictionary_examples():
     print("We can get the number of key entries (which will also be number of values)")
     print(len(superheros))
 
-    print("We can delete items by key with del")
+    print("We can delete items by key with the del keyword")
     del superheros["Batman"]
     print(superheros)
 

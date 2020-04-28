@@ -9,7 +9,18 @@ def variable_examples():
     name = "James"
     print(name)
     name = 1234
-    print(name)
+    print(name) 
+
+    print("We can specify floats either by specifying decimal digits or by using float()")
+    float1 = 4.0
+    float2 = float(4)
+    print("float1 =", float1)
+    print("float2 =", float2)
+
+    print("We can assign multiple variables at the same time")
+    a, b = 12, 487
+    print("a =", a)
+    print("b =", b)
 
     print("We have all the normal arithmetic operators")
     print("5 + 2 =", 5+2)
@@ -57,3 +68,11 @@ this'''
     print("string1 = %s string2 = %s string literal = %s" % (string1, string2, "Some string literal"))
 
     print("We also have \%d for numbers, \%f for floats, \%x or \%X for hex (lower/uppercase)")
+
+    print("We can use 'del' to delete variables")
+    temp_variable = 1234
+    print(temp_variable)
+    del temp_variable
+    # If we un-comment the following line, we'll get a runtime exception
+    #print(temp_variable)
+    

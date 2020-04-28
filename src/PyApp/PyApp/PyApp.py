@@ -10,7 +10,7 @@ from strings import *
 from file_io import *
 
 def main():
-    #variable_examples()
+    variable_examples()
     #list_examples()
     #tuple_examples()
     #dictionary_examples()
@@ -19,7 +19,7 @@ def main():
     #function_examples()
     #user_input_examples()
     #string_examples()
-    file_io_examples()
+    #file_io_examples()
 
 ###############################################
 # Startup
