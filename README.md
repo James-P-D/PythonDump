@@ -8,6 +8,9 @@ Some of this is from [Derek Banas' video](https://www.youtube.com/watch?v=N4mEzF
 [variables.py](https://github.com/James-P-D/PythonDump/blob/master/src/PyApp/PyApp/variables.py)  
 [lists.py](https://github.com/James-P-D/PythonDump/blob/master/src/PyApp/PyApp/lists.py)  
 [tuples.py](https://github.com/James-P-D/PythonDump/blob/master/src/PyApp/PyApp/tuples.py)  
+[dictionaries.py](https://github.com/James-P-D/PythonDump/blob/master/src/PyApp/PyApp/dictionaries.py)  
+[conditionals.py](https://github.com/James-P-D/PythonDump/blob/master/src/PyApp/PyApp/conditionals.py)  
+[loops.py](https://github.com/James-P-D/PythonDump/blob/master/src/PyApp/PyApp/loops.py)  
 
 ## Misc
 
