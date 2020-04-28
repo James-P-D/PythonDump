@@ -55,3 +55,5 @@ this'''
 
     print("We can use \%s to embedd strings, printf-style")
     print("string1 = %s string2 = %s string literal = %s" % (string1, string2, "Some string literal"))
+
+    print("We also have \%d for numbers, \%f for floats, \%x or \%X for hex (lower/uppercase)")

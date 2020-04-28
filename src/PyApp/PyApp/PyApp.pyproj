@@ -21,7 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="tuples.py" />
     <Compile Include="PyApp.py" />
+    <Compile Include="lists.py" />
     <Compile Include="variables.py">
       <SubType>Code</SubType>
     </Compile>
