@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>PyApp</Name>
     <RootNamespace>PyApp</RootNamespace>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,6 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="numpy_test.py" />
     <Compile Include="file_io.py" />
     <Compile Include="strings.py" />
     <Compile Include="user_input.py" />

@@ -8,9 +8,10 @@ from functions import *
 from user_input import *
 from strings import *
 from file_io import *
+from numpy_test import *
 
 def main():
-    variable_examples()
+    #variable_examples()
     #list_examples()
     #tuple_examples()
     #dictionary_examples()
@@ -20,6 +21,7 @@ def main():
     #user_input_examples()
     #string_examples()
     #file_io_examples()
+    numpy_examples()
 
 ###############################################
 # Startup
@@ -33,3 +35,4 @@ if __name__ == "__main__":
     Multi-line comment
     '''
     main()
+
