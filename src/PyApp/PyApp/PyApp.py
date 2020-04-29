@@ -13,12 +13,15 @@ from numpy_test import *
 from generators import *
 from list_comprehension import *
 from exceptions import *
+from json_serialisation import *
+from partial_functions import *
+from closures import *
 
 def main():
     #variable_examples()
     #list_examples()
     #tuple_examples()
-    set_examples()
+    #set_examples()
     #dictionary_examples()
     #conditional_examples()
     #loop_examples()
@@ -30,6 +33,9 @@ def main():
     #generator_examples()
     #list_comprehension_examples()
     #exception_examples()
+    #json_serialisation_examples()
+    #partial_function_examples()
+    closure_examples()
 
 ###############################################
 # Startup

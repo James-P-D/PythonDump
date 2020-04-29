@@ -24,9 +24,12 @@
   <ItemGroup>
     <Compile Include="generators.py" />
     <Compile Include="exceptions.py" />
+    <Compile Include="closures.py" />
+    <Compile Include="partial_functions.py" />
     <Compile Include="list_comprehension.py" />
     <Compile Include="numpy_test.py" />
     <Compile Include="file_io.py" />
+    <Compile Include="json_serialisation.py" />
     <Compile Include="strings.py" />
     <Compile Include="sets.py" />
     <Compile Include="user_input.py" />

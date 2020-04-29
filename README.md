@@ -20,6 +20,9 @@ Some of this is from [Derek Banas' video](https://www.youtube.com/watch?v=N4mEzF
 [generators](https://github.com/James-P-D/PythonDump/blob/master/src/PyApp/PyApp/generators.py)  
 [list_comprehension](https://github.com/James-P-D/PythonDump/blob/master/src/PyApp/PyApp/list_comprehension.py)  
 [exceptions](https://github.com/James-P-D/PythonDump/blob/master/src/PyApp/PyApp/exceptions.py)  
+[json_serialisation](https://github.com/James-P-D/PythonDump/blob/master/src/PyApp/PyApp/json_serialisation.py)  
+[partial_functions](https://github.com/James-P-D/PythonDump/blob/master/src/PyApp/PyApp/partial_functions.py)  
+[closures](https://github.com/James-P-D/PythonDump/blob/master/src/PyApp/PyApp/closures.py)  
 
 ## Misc
 
