@@ -16,6 +16,8 @@ from exceptions import *
 from json_serialisation import *
 from partial_functions import *
 from closures import *
+from decorators import *
+from map_filter_reduce import *
 
 def main():
     #variable_examples()
@@ -35,7 +37,9 @@ def main():
     #exception_examples()
     #json_serialisation_examples()
     #partial_function_examples()
-    closure_examples()
+    #closure_examples()
+    #decorator_examples()
+    map_filter_reduce_examples()
 
 ###############################################
 # Startup

@@ -32,13 +32,24 @@ def outside_function():
     inside_function()
     print("End outside_function()")
 
-def outside_function_with_vars(x):
+def outside_function_with_params(x):
+    def inside_function_with_params():
+        print("Start inside_function_with_params(), x = ", x)        
+        print("End inside_function_with_params()")    
+    print("Start outside_function_with_params(), x = ", x)
+    inside_function_with_params()
+    print("End outside_function_with_params()")
+
+def outside_function_with_vars():
+    x = 5
     def inside_function_with_vars():
-        print("Start inside_function_with_vars(), x = ", x)        
-        print("End inside_function_with_vars()")    
+        nonlocal x # Make sure we tell Python this is nonlocal otherwise it won't know about it!
+        print("Start inside_function_with_vars(), x = ", x)   
+        x += 1
+        print("End inside_function_with_vars(), x = ", x)
     print("Start outside_function_with_vars(), x = ", x)
     inside_function_with_vars()
-    print("End outside_function_with_vars()")
+    print("End outside_function_with_vars(), x = ", x)        
 
 def add(x, y):
     return x + y
@@ -86,7 +97,10 @@ def function_examples():
     #inside_function()
 
     print("Functions inside functions can use parameters from outside their scope")
-    outside_function_with_vars(5)
+    outside_function_with_params(5)
+
+    print("Functions inside functions can use variables in the parent-function, just make sure they are marked as 'nonlocal'. (Also note that changes to the variable *persist* after the inner function has completed!)")
+    outside_function_with_vars()
 
     print("We can also pass functions as parameters to other functions (higher-order functions)")
     print("do_maths(add, 5, 10) = ", do_maths(add, 5, 10))    

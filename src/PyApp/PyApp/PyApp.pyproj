@@ -22,6 +22,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="map_filter_reduce.py" />
+    <Compile Include="decorators.py" />
     <Compile Include="generators.py" />
     <Compile Include="exceptions.py" />
     <Compile Include="closures.py" />
