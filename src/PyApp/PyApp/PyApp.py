@@ -18,6 +18,7 @@ from partial_functions import *
 from closures import *
 from decorators import *
 from map_filter_reduce import *
+from anonymous_functions import *
 
 def main():
     #variable_examples()
@@ -39,7 +40,8 @@ def main():
     #partial_function_examples()
     #closure_examples()
     #decorator_examples()
-    map_filter_reduce_examples()
+    #map_filter_reduce_examples()
+    anonymous_function_examples()
 
 ###############################################
 # Startup

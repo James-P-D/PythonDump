@@ -25,6 +25,7 @@ Some of this is from [Derek Banas' video](https://www.youtube.com/watch?v=N4mEzF
 [closures](https://github.com/James-P-D/PythonDump/blob/master/src/PyApp/PyApp/closures.py)  
 [decorators](https://github.com/James-P-D/PythonDump/blob/master/src/PyApp/PyApp/decorators.py)  
 [map_filter_reduce](https://github.com/James-P-D/PythonDump/blob/master/src/PyApp/PyApp/map_filter_reduce.py)  
+[anonymous_functions](https://github.com/James-P-D/PythonDump/blob/master/src/PyApp/PyApp/anonymous_functions.py)  
 
 ## Misc
 

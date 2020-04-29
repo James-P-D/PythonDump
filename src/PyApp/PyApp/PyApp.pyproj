@@ -22,6 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="anonymous_functions.py" />
     <Compile Include="map_filter_reduce.py" />
     <Compile Include="decorators.py" />
     <Compile Include="generators.py" />
