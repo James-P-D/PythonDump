@@ -18,7 +18,7 @@ def numpy_examples():
     np_height = np.array(height)
     np_weight = np.array(weight)
 
-    print("We can print the type of the numpy arrays")
+    print("We can print the type of the numpy arrays. Note they are 'numpy.ndarray' to signify Nth Dimensional Arrays")
     print(type(np_height))
     print(type(np_weight))
 
@@ -44,3 +44,6 @@ def numpy_examples():
     np_weight_lbs = np_weight_kg * 2.2
     print(np_weight_lbs)
 
+    print("Create numpy array [0 1 2 .. 25 26] with arange()")
+    np_range = np.arange(27)
+    print(np_range)
