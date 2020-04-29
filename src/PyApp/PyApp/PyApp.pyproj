@@ -28,6 +28,7 @@
     <Compile Include="generators.py" />
     <Compile Include="exceptions.py" />
     <Compile Include="closures.py" />
+    <Compile Include="pandas_test.py" />
     <Compile Include="partial_functions.py" />
     <Compile Include="list_comprehension.py" />
     <Compile Include="numpy_test.py" />
@@ -46,6 +47,11 @@
     <Compile Include="variables.py">
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="people.csv">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

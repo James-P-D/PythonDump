@@ -10,6 +10,7 @@ from user_input import *
 from strings import *
 from file_io import *
 from numpy_test import *
+from pandas_test import *
 from generators import *
 from list_comprehension import *
 from exceptions import *
@@ -33,6 +34,7 @@ def main():
     #string_examples()
     #file_io_examples()
     #numpy_examples()
+    pandas_examples()
     #generator_examples()
     #list_comprehension_examples()
     #exception_examples()
@@ -41,7 +43,7 @@ def main():
     #closure_examples()
     #decorator_examples()
     #map_filter_reduce_examples()
-    anonymous_function_examples()
+    #anonymous_function_examples()
 
 ###############################################
 # Startup
