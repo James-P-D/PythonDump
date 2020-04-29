@@ -40,6 +40,13 @@ def outside_function_with_vars(x):
     inside_function_with_vars()
     print("End outside_function_with_vars()")
 
+def add(x, y):
+    return x + y
+def subtract(x, y):
+    return x - y
+def do_maths(func, x, y):
+    return func(x, y)
+
 def function_examples():
     print("Function Examples")
     print()
@@ -81,3 +88,7 @@ def function_examples():
     print("Functions inside functions can use parameters from outside their scope")
     outside_function_with_vars(5)
 
+    print("We can also pass functions as parameters to other functions (higher-order functions)")
+    print("do_maths(add, 5, 10) = ", do_maths(add, 5, 10))    
+    print("do_maths(subtract, 5, 10) = ", do_maths(subtract, 5, 10))
+    
