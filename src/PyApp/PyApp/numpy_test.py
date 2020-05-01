@@ -47,3 +47,14 @@ def numpy_examples():
     print("Create numpy array [0 1 2 .. 25 26] with arange()")
     np_range = np.arange(27)
     print(np_range)
+
+    print("Create 2-d numpy array")
+    two_dimensional = np.ndarray((2, 10))
+    print(two_dimensional)
+
+    print("Create initialised 2-d numpy array of type int32")
+    initialised_two_d_array = np.array([[1, 2, 3], [4, 5, 6]], np.int32)
+    print(initialised_two_d_array)
+
+    print("We can access individual elements with [x,y]")
+    print(initialised_two_d_array[1, 2])
