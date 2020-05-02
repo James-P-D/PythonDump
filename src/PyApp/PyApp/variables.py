@@ -75,4 +75,8 @@ this'''
     del temp_variable
     # If we un-comment the following line, we'll get a runtime exception
     #print(temp_variable)
+
+    print("We can use f\" to format output") # https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python
+    print(f"a sting = {string1} int = {a} half an int as a float = {a / 2} same but as int = {int(a / 2)}")
+
     

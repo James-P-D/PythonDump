@@ -22,7 +22,7 @@ from map_filter_reduce import *
 from anonymous_functions import *
 
 def main():
-    #variable_examples()
+    variable_examples()
     #list_examples()
     #tuple_examples()
     #set_examples()
@@ -33,7 +33,7 @@ def main():
     #user_input_examples()
     #string_examples()
     #file_io_examples()
-    numpy_examples()
+    #numpy_examples()
     #pandas_examples()
     #generator_examples()
     #list_comprehension_examples()
