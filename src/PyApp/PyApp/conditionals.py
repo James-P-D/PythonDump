@@ -52,3 +52,10 @@ def conditional_examples():
     print("list1 is list2 =", list1 is list2)
     print("list1 == list2 =", list1 == list2)
     
+    print("Note that python also uses 'if's for the ternary conditional operator ('?:')")
+    int1 = 10
+    int2 = 20
+    biggest_int = int1 if int1 > int2 else int2
+    print("int1 =", int1)
+    print("int2 =", int2)
+    print("biggest_int = int1 if int1 > int2 else int2 is... ", biggest_int)

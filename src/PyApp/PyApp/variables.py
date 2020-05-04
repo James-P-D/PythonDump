@@ -79,4 +79,10 @@ this'''
     print("We can use f\" to format output") # https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python
     print(f"a sting = {string1} int = {a} half an int as a float = {a / 2} same but as int = {int(a / 2)}")
 
-    
+    print("Note that python also uses 'if's for the ternary conditional operator ('?:')")
+    int1 = 10
+    int2 = 20
+    biggest_int = int1 if int1 > int2 else int2
+    print("int1 =", int1)
+    print("int2 =", int2)
+    print("biggest_int = int1 if int1 > int2 else int2 is... ", biggest_int)    
