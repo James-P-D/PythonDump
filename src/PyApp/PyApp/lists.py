@@ -21,6 +21,9 @@ def list_examples():
     weird_list = ["String", 1234, 3.1415]
     print(weird_list)
 
+    print("We can check if a list contains an item using 'is'")
+    print("1234 in weird_list? ", 1234 in weird_list)
+
     print("We can easily change an item in a list")
     shopping_list[0] = "Avocado"
     print(shopping_list)

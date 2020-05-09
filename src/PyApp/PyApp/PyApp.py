@@ -22,8 +22,8 @@ from map_filter_reduce import *
 from anonymous_functions import *
 
 def main():
-    variable_examples()
-    #list_examples()
+    #variable_examples()
+    list_examples()
     #tuple_examples()
     #set_examples()
     #dictionary_examples()
