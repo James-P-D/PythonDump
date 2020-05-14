@@ -51,6 +51,9 @@ def outside_function_with_vars():
     inside_function_with_vars()
     print("End outside_function_with_vars(), x = ", x)        
 
+def function_with_types(a: int, s:str) -> str:
+    return f"a = {a}, s={s}"
+    
 def add(x, y):
     return x + y
 def subtract(x, y):
@@ -98,6 +101,9 @@ def function_examples():
 
     print("Functions inside functions can use parameters from outside their scope")
     outside_function_with_params(5)
+
+    print("Functions can specify parameter and return data-types")
+    retVal = function_with_types(123, "hello")
 
     print("Functions inside functions can use variables in the parent-function, just make sure they are marked as 'nonlocal'. (Also note that changes to the variable *persist* after the inner function has completed!)")
     outside_function_with_vars()
