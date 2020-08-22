@@ -1,6 +1,8 @@
 import sys
 import os
 
+# No function overloading in Python!
+
 def sum_numbers(a, b):
     return a + b
 
@@ -18,7 +20,7 @@ def try_to_increment(a):
     a += 1
     print("Inside function a is now ", a)
 
-def sum_numbers(*args):  # Note we are also function overloading here, since we already have a sum_numbers() method!
+def sum_numbers2(*args):
     total = 0    
     for arg in args:
         total += arg
@@ -90,8 +92,8 @@ def function_examples():
     print("After calling function num = ", num)
 
     print("We can call functions with multiple number of arguments")
-    print("1 + 2 + 3 = ", sum_numbers(1, 2, 3))
-    print("1 + 2 + 3 + 4 + 5 + 6 = ", sum_numbers(1, 2, 3, 4, 5, 6))
+    print("1 + 2 + 3 = ", sum_numbers2(1, 2, 3))
+    print("1 + 2 + 3 + 4 + 5 + 6 = ", sum_numbers2(1, 2, 3, 4, 5, 6))
 
     print("We can have functions declared within functions. It's like Turbo Pascal 6 all over again :)")
     outside_function()
